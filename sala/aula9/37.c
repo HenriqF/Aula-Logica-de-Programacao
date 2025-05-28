@@ -1,4 +1,7 @@
 #include <stdio.h>
+//deu preguica de fazer em sala, fiz depois da escalada.
+//Por isso a demora.
+
 int main() {
     int l;
     double m[12][12], ans=0;
