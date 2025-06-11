@@ -11,7 +11,7 @@ int main(){
     char tempostr[100];
     sprintf(tempostr, "%d", tempo);
 
-    memmove(tempostr, tempostr + strlen(tempostr) - 2, 2); // Shift the last two characters to the start
+    memmove(tempostr, tempostr + strlen(tempostr) - 2, 2); 
     tempostr[2] = '\0';
 
     tempo = atoi(tempostr);
